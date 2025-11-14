@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Video</title>
+</head>
+<body>
+    <h1>Test Video Loading</h1>
+
+    <h2>Test output.mp4:</h2>
+    <video controls width="400" muted>
+        <source src="/output.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Direct test:</h2>
+    <video controls width="400" muted>
+        <source src="./output.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3>Debug Info:</h3>
+    <p>Current URL: <span id="current-url"></span></p>
+    <p>Trying to load: <span id="video-url"></span></p>
+
+    <script>
+        document.getElementById('current-url').textContent = window.location.href;
+        document.getElementById('video-url').textContent = window.location.origin + '/output.mp4';
+
+        // Test if video file exists
+        fetch('/output.mp4')
+            .then(response => {
+                console.log('Video fetch response:', response.status, response.statusText);
+                if (response.ok) {
+                    console.log('Video file exists and is accessible');
+                } else {
+                    console.log('Video file not accessible:', response.status);
+                }
+            })
+            .catch(error => {
+                console.log('Error fetching video:', error);
+            });
+    </script>
+</body>
+</html>
