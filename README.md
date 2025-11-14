@@ -100,3 +100,5 @@ The frontend at `http://localhost:3000` will automatically connect to this backe
 - **Pillow**: Image processing
 - **FFmpeg-python**: Video processing
 - **Python-dotenv**: Environment variable management
+
+![Diagram](./code_flow.jpg)
