@@ -50,4 +50,8 @@ When the backend is ready, you can connect it by:
 - Vite
 - CSS3 (Custom properties)
 - Responsive Design
+
 - Modern JavaScript (ES6+)
+
+## Data Flow Diagram
+![Flow Diagram](demonstration/Capture.jpg)
