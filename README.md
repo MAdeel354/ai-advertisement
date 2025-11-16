@@ -357,11 +357,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [React](https://react.dev/) for the UI library
 - [Vite](https://vitejs.dev/) for the build tool
 
-## 📧 Contact
 
-For questions, issues, or suggestions, please open an issue on GitHub.
-
----
-
-**Made with ❤️ using AI**
 
