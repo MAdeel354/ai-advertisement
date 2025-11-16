@@ -54,4 +54,5 @@ When the backend is ready, you can connect it by:
 - Modern JavaScript (ES6+)
 
 ## Data Flow Diagram
-![Flow Diagram](demonstration/Capture.jpg)
+![Flow Diagram](./demonstration/Capture.JPG)
+
