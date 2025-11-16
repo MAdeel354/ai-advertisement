@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "job_id": "job_2863b24a8102",
+      "prompt": "create an ad for a new iphone",
+      "job_type": "both",
+      "status": "completed",
+      "logo_url": "/output/logo_314688f1.png",
+      "video_url": null,
+      "error_message": null,
+      "created_at": "2025-11-17T00:16:31.943593",
+      "started_at": "2025-11-17T00:16:40.570120",
+      "completed_at": "2025-11-17T00:16:41.390065",
+      "progress": 100,
+      "user_id": "default"
+    },
+    {
+      "job_id": "job_1a0b6f2e68b1",
+      "prompt": "create an ad for a digital watch which do multiple things such as instant messaging, counting steps, workout management, heartbeat monitoring etc",
+      "job_type": "both",
+      "status": "completed",
+      "logo_url": "/output/logo_5f94c856.png",
+      "video_url": "/output/video_a9f7c490.mp4",
+      "error_message": null,
+      "created_at": "2025-11-17T00:10:45.859943",
+      "started_at": "2025-11-17T00:12:17.406632",
+      "completed_at": "2025-11-17T00:12:17.444504",
+      "progress": 100,
+      "user_id": "default"
+    },
+    {
+      "job_id": "job_a43608bdc247",
+      "prompt": "create an xbox controller ad with animal print",
+      "job_type": "both",
+      "status": "completed",
+      "logo_url": "/output/logo_5413d22f.png",
+      "video_url": "/output/video_9b5fef04.mp4",
+      "error_message": null,
+      "created_at": "2025-11-16T23:59:19.029963",
+      "started_at": "2025-11-17T00:01:41.238632",
+      "completed_at": "2025-11-17T00:01:41.250250",
+      "progress": 100,
+      "user_id": "default"
+    }
+  ]
+}
